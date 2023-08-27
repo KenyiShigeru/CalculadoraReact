@@ -1,0 +1,41 @@
+.bordeinferior{
+
+    padding: 1rem;
+}
+.esquemaBotones{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:5px;
+}
+.extterior{
+    background-color: white;
+}
+.bordeinferior input{
+    width: 96%;
+    height: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.boton{
+    border-radius: 20px;
+    border-style: none;
+    background-color: #81008f;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+.boton:hover{
+    background-color: #8d2898;
+}
+.sombra{
+    border-radius: 9%;
+    -webkit-box-shadow: 10px 10px 134px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 134px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 134px 0px rgba(0,0,0,0.75);
+}
+.centrar{
+    margin-top: 5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
